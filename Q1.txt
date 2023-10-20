@@ -1,0 +1,30 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP    ---> HyperText Transfer Protocol
+             It is the basic for almost all web application .
+             it is used in client-server communication
+             user sends the request to the server & the server sends the response to the user.
+
+HTTP1.1 ---> It is the first version of HTTP, it was created in 1997.
+             This version is used to still on the web.
+             
+             It works on the textual format.
+             
+             HTTP/1.1 loads resources one after other.
+             if one resource cannot be loaded, it blocks all the other resources.
+
+             It uses requests resource Inline,with use of multiple pages
+
+             It compresses data by itself.
+
+HTTP2 -----> This is the next version of HTTP,it was created in 2015
+             HTTP2 was resolve the problems  in HTTP1.1
+             
+             HTTP/2 is much faster and more efficient than HTTP/1.1.
+             
+             It works on the binary protocol.
+             
+             It uses PUSH frame by server that collects all multiple pages.
+
+             It uses HPACK for data compression. 
+

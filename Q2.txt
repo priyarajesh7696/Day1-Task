@@ -1,0 +1,30 @@
+Write a blog about objects and its internal representation in Javascript ?
+
+    object is a collection of properties.
+
+    JavaScript objects can have properties, which define their characteristics.
+
+    object initializer is used to create a new object in javascript.
+
+    const myCar = {
+        brand: "Ford",
+        model: "Mustang",
+        year: 1969,
+    };
+
+    in above example, myCar is an object.it have some properties like  brand,model,year.
+
+function Car(make, model, year) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+}
+
+inside of the constructor we use this keyword.then new keyword is used to create a new object.
+
+const myCar = new Car("ford", "Talon TSi", 1993);
+
+Inheritance
+All objects in JavaScript inherit from at least one other object
+
+A method is a function associated with an object
